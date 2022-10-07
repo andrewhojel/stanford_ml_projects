@@ -1,1 +1,5 @@
 # stanford_projects
+
+## CS236 Final Project - Image-Based Music Generation using Invertible MIDI-to-Image Conversions
+
+**Abstract:** There have been many attempts at generating music using various deep genera- tive models. Although some of these attempts have been relatively successful, image generation models significantly outperform music generation models in their respective tasks. We leverage these impressive advances in image generation to achieve higher quality music generation. Using a dataset consisting of classical musical instrument digital interface (MIDI) files, we map each file to a visual representation, and feed the resulting images to StyleGAN2, WassersteinGAN, and PixelCNN++. The given model then generates new images based on the learned distribution of the MIDI image representations. Finally, we convert the generated images back to their musical MIDI form. We find that PixelCNN++ significantly outperforms the other models in the Melody, Harmony, and Rhythm of the resulting MIDI files. We also find that this technique outperforms traditional music generation models such as Music Transformer.
